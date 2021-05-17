@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+/* 
+//////////////////////
+Navbar
+////////////////////// 
+*/
+
+.brand {
+	font-weight: 600;
+}
+.navbar-icon {
+	font-size: 1rem;
+}
+.secondNav {
+	height: 40px;
+	padding: 0 20px;
+}
+.secondNav .row a {
+	margin-top: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 
+//////////////////////
+Home page
+////////////////////// 
+*/
+
+.heading-image {
+	height: 80px;
+}
+.home-heading {
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+}
+.card-img {
+	width: 12rem;
+	height: 17rem;
+}
+.product-name {
+	font-size: 1.1rem;
+}
+.card-padding {
+	padding: 5% 2%;
+}
+.reviews-section {
+	padding: 3% 0;
+}
+.card-reviews {
+	padding: 1.5%;
+	font-size: 0.8rem;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.card-price {
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+.card-height {
+	min-height: 35rem;
+}
+.card-button {
+	margin: 3%;
+}
+.card-content {
+	height: 15rem;
+}
+/* 
+//////////////////////
+Product details page
+////////////////////// 
+*/
+
+.details-page-image {
+	width: 25rem;
+	height: 32rem;
+	margin: 5%;
+}
+.product-details-content {
+	margin: 5%;
+}
+.product-details-rating {
+	padding: 0.5% 1%;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.m-0 {
+	margin: 0;
+}
+.product-details-description {
+	height: 90vh;
+	overflow: scroll;
+}
+.buttons a {
+	margin: 1% 5%;
+	width: 15rem;
+}
+.table-details {
+	border: 1px solid rgb(163, 163, 163);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 
+//////////////////////
+counter 
+////////////////////// 
+*/
+
+.counter-btn {
+	padding: 1%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	min-width: 20px;
+}
+.counter-pre {
+	display: inline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* 
+//////////////////////
+loading spinner
+////////////////////// 
+*/
+
+.spinner-margin {
+	margin: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+/* 
+//////////////////////
+error
+////////////////////// 
+*/
+.error {
+	padding: 1%;
+	border: 1px solid red;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.blue {
+	padding: 1%;
+	border: 1px solid blue;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 
+//////////////////////
+cart
+////////////////////// 
+*/
+.cart-card {
+	padding: 2%;
+	margin: 1%;
+}
+.cart-image {
+	width: 5rem;
+	height: 7rem;
+}
+.cart-card-bottom {
+	padding-bottom: 5%;
+}
+.subtotal-card {
+	padding: 5%;
+}
+.subtotal-heading {
+	color: grey;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+@media screen and (min-width: 992px) {
+	.cart-side-bar {
+		position: fixed;
+		top: 220px;
+		right: 70px;
+		padding: 1%;
+		width: 400px;
+	}
+}
+pre {
+	padding: 5%;
+}
+
+.message {
+	padding: 5% 2%;
 }
