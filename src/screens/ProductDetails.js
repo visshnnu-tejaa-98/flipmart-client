@@ -6,7 +6,6 @@ import { productDetails } from '../redux/actions/productActions';
 import { cartReducer } from '../redux/reducers/CartReducers';
 const ProductDetails = () => {
 	let { loading, product, error } = useSelector((state) => state.productDetails);
-	// let { cartItems } = useSelector((state) => state.cart);
 	let dispatch = useDispatch();
 	useEffect(() => {
 		let id = window.location.pathname.split('/')[2];

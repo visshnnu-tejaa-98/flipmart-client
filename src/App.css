@@ -9,6 +9,7 @@ Navbar
 }
 .navbar-icon {
 	font-size: 1rem;
+	padding: 0 5px;
 }
 .secondNav {
 	height: 40px;
@@ -16,6 +17,14 @@ Navbar
 }
 .secondNav .row a {
 	margin-top: 8px;
+}
+.dropdown-content li > a,
+.dropdown-content li > span {
+	color: blue;
+}
+.drop-down {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /* 
@@ -204,4 +213,42 @@ pre {
 
 .message {
 	padding: 5% 2%;
+}
+
+/* 
+//////////////////////
+login screen
+////////////////////// 
+*/
+
+.login-screen {
+	margin-top: 5%;
+}
+.login-card {
+	padding: 5%;
+}
+
+/* 
+//////////////////////
+profile screen
+////////////////////// 
+*/
+
+.profile-card {
+	padding: 5%;
+}
+.profile-img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.profile-edit {
+	font-size: 0.8rem;
+	padding-left: 5%;
+	color: orange;
+	cursor: pointer;
 }

@@ -22,7 +22,6 @@ let initialProductsList = {
 	error: '',
 };
 
-// ////////////////////////////////   start of fetch all products   ////////////////////////
 export const productListReducer = (state = initialProductsList, action) => {
 	switch (action.type) {
 		case PRODUCT_LIST_REQUEST:
@@ -45,10 +44,6 @@ export const productListReducer = (state = initialProductsList, action) => {
 			return state;
 	}
 };
-
-// ////////////////////////////////   end of fetch all products   ////////////////////////
-
-// ////////////////////////////////   start of fetch single products   ////////////////////////
 
 let initialProductDetails = {
 	loading: false,
@@ -79,5 +74,3 @@ export const productDetailsReducer = (state = initialProductDetails, action) => 
 			return state;
 	}
 };
-
-// ////////////////////////////////   end of fetch single products   ////////////////////////

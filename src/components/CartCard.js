@@ -64,7 +64,7 @@ const CartCard = ({ item, qty }) => {
 							className='waves-effect waves-light btn red'
 							onClick={() => dispatch(removeFromCart(item.id))}
 						>
-							<i class='material-icons left'>delete</i>Remove
+							<i class='material-icons left'>delete</i>Delete
 						</button>
 					</div>
 				</div>

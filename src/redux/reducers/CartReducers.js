@@ -2,10 +2,7 @@ import { BACKEND_ENDPOINT } from '../../endpoints';
 import { cartAddItem } from '../actions/CartActions';
 import { CART_ADD_ITEM, CART_REMOVE_ITEM } from '../constants/CartConstants';
 
-// let initialCartState = {};
-
 export const cartReducer = (state = { cartItems: [{ name: 'visshnnu' }] }, action) => {
-	console.log(state);
 	switch (action.type) {
 		case CART_ADD_ITEM:
 			const item = action.payload;

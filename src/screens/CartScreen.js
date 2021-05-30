@@ -5,7 +5,6 @@ import { addToCart } from '../redux/actions/CartActions';
 import CartCard from '../components/CartCard';
 const CartScreen = () => {
 	let cartItems = useSelector((state) => state.cart.cartItems);
-	console.log(cartItems);
 	let dispatch = useDispatch();
 	if (window.location.pathname.length > 5) {
 		var id = window.location.href.split('/')[4].split('?')[0];
