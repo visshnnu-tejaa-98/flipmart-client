@@ -1,11 +1,6 @@
-import { Link, useHistory, useLocation } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import { login } from '../redux/actions/userActions';
 import { useEffect, useState } from 'react';
 import { BACKEND_ENDPOINT } from '../endpoints';
 const ForgotPage = () => {
-	const { loading, userInfo, error } = useSelector((state) => state.userLogin);
-
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
 

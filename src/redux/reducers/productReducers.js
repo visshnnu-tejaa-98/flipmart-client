@@ -1,12 +1,3 @@
-import { BACKEND_ENDPOINT } from '../../endpoints';
-import {
-	productDetailsFailure,
-	productDetailsRequest,
-	productDetailsSuccess,
-	productListFailure,
-	productListRequest,
-	productListSuccess,
-} from '../actions/productActions';
 import {
 	PRODUCT_LIST_FAILURE,
 	PRODUCT_LIST_REQUEST,

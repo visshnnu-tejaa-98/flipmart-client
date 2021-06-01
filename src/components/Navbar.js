@@ -10,7 +10,6 @@ const Navbar = () => {
 	}, []);
 
 	const [userInfo, setUserInfo] = useState({});
-	const [userLS, setUserLS] = useState({});
 	const user = useSelector((state) => state.userLogin);
 	const dispatch = useDispatch();
 

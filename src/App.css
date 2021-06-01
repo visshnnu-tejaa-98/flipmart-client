@@ -252,3 +252,16 @@ profile screen
 	color: orange;
 	cursor: pointer;
 }
+
+/* 
+//////////////////////
+place order screen
+////////////////////// 
+*/
+.placeOrderScreen {
+	padding: 2%;
+}
+.placeOrder-image {
+	width: 40px;
+	height: 40px;
+}

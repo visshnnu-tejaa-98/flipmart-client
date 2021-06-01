@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-// import Counter from '../components/Counter';
+
 import { productDetails } from '../redux/actions/productActions';
-import { cartReducer } from '../redux/reducers/CartReducers';
 const ProductDetails = () => {
 	let { loading, product, error } = useSelector((state) => state.productDetails);
 	let dispatch = useDispatch();

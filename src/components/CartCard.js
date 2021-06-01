@@ -5,7 +5,6 @@ import { removeFromCart, addToCart } from '../redux/actions/CartActions';
 const CartCard = ({ item, qty }) => {
 	const dispatch = useDispatch();
 	const [count, setcount] = useState(Number(qty));
-	const [allCartProducts, setAllCartProducts] = useState();
 	const increment = () => {
 		if (count > 0 && count < item.countInStock) {
 			setcount(count + 1);
@@ -64,7 +63,7 @@ const CartCard = ({ item, qty }) => {
 							className='waves-effect waves-light btn red'
 							onClick={() => dispatch(removeFromCart(item.id))}
 						>
-							<i class='material-icons left'>delete</i>Delete
+							<i className='material-icons left'>delete</i>Delete
 						</button>
 					</div>
 				</div>
@@ -91,10 +90,10 @@ const CartCard = ({ item, qty }) => {
 					</div>
 					<div className='col s6 '>
 						<button
-							class='waves-effect waves-light btn red hide-on-med-and-up'
+							className='waves-effect waves-light btn red hide-on-med-and-up'
 							onClick={() => dispatch(removeFromCart(item.id))}
 						>
-							<i class='material-icons left'>delete</i>Remove
+							<i className='material-icons left'>delete</i>Remove
 						</button>
 					</div>
 				</div>
